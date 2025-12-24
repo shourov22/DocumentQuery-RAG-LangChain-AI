@@ -1,5 +1,12 @@
 # DocumentQuery-RAG-LangChain-AI
-RAG-based system to make queries to PDF documents.
+RAG-based system to make queries to PDF documents. The following tools and models are used in this project:
+
+1. pdfplumber (to extract pdf content)
+2. LangChain (to chain differnt components)
+3. Embeddings model: HugginFace's sentence-transformers/all-mpnet-base-v2
+4. Vector store: FAISS
+5. Open AI model: gpt-4o
+6. LangChain Expression Language (LCEL) RAG pipeline
 
 Along with the packages in the requirements.txt, the following python packages are needed to be installed:
 
