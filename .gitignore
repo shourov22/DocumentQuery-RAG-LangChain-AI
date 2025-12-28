@@ -3,3 +3,4 @@ Makefile_not_in_use
 # Ignore Jupyter Notebook checkpoints; Outputs will not be pushed
 .ipynb_checkpoints/
 DocumentQuery-RAG-LangChain-AI.code-workspace
+.env
