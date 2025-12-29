@@ -77,5 +77,7 @@ This project implements a Retrieval Augmented Generation (RAG) workflow that all
         - the LLM generates the answer.
 
 **Example usage**
-rag_chain.invoke("Query 1: Ask something about the document content") 
+
+rag_chain.invoke("Query 1: Ask something about the document content")
+
 rag_chain.invoke("Query 2: Another document‑based question")
